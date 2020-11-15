@@ -39,8 +39,8 @@ app.use((req, res, next) => {
   next();
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3306;
 
-app.listen(PORT, "127.0.0.1", () =>
+app.listen(PORT, "us-cdbr-iron-east-02.cleardb.net", () =>
   console.log(`Server running on port ${PORT}`)
 );
