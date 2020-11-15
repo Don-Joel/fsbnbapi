@@ -1,11 +1,19 @@
 {
-    "dev": {
+    "local": {
         "driver": "mysql",
         "host": "localhost",
         "port": "3306",
         "user": "root",
         "password": "root",
         "database": "fs_bnb"
+    },
+    "dev": {
+        "driver": "mysql",
+        "host": "us-cdbr-iron-east-02.cleardb.net",
+        "port": "3306",
+        "user": "bc05126ff0e150",
+        "password": "6910055d",
+        "database": "heroku_a3ee1eece26bd24"
     }
 
     
